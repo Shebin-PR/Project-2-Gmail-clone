@@ -1,0 +1,253 @@
+*
+{
+ margin: 0;
+ padding: 0;   
+}
+
+.header-left img
+{
+    object-fit: container;
+    height: 80px;
+    margin-left: 5px;
+}
+
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+.header-left i{
+padding: 10px;
+cursor: pointer;
+}
+
+.header-middle
+{
+    display: flex;
+    flex: 0.7;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.material-icons
+{
+    color: grey;
+}
+
+.header-middle input
+{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: medium;
+    background-color: transparent;
+}
+
+
+.header-right
+{
+    display: flex;
+    padding-right: 20px;
+}
+
+.header-right i{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar
+{
+    flex: 0.3;
+    max-width: 300px;
+    padding-right: 20px;
+}
+
+.sidebar-compose
+{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: grey;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 75) ;
+}
+
+.sidebar-compose i{
+    margin-right: 5px;
+}
+
+.sidebar-option
+{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    color: grey;
+}
+
+.sidebar-option .material-icons
+{
+  padding: 5px;
+}
+    .sidebar-option h3{
+
+    flex: 1;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sidebar-option :hover,
+.sidebar-option :hover h3,
+.sidebar-option :hover .material-icons,
+.sidebar-option-active
+.sidebar-option-active h3,
+.sidebar-option-active .material-icons
+{
+    background-color: white;
+    color: red;
+    font-weight: 800;
+}
+
+.sidebar-bottom
+{
+    margin: 10px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.main-body{
+    display: flex;
+    height: 100vh;
+}
+
+body{
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+
+.emaillist
+{
+    flex: 1;
+    overflow: scroll;
+}
+
+.emailist-settings
+{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    background-color: white;
+    z-index: 999;
+    align-items: center;
+}
+
+.emaillist-settings-left
+{
+    display: flex;
+    align-items: center;
+} 
+.emailist-settings .material-icons
+{
+    margin: 5px;
+    cursor: pointer;
+}
+
+.section
+{
+    display: flex;
+    align-items: center;
+    border-bottom-width: 2px;
+    padding: 15px;
+    min-width: 200px;
+    color: grey;
+    cursor: pointer;
+    border-width: 0;
+}
+
+.emaillist-sections
+{
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: white;
+    z-index: 999;
+    border-bottom: 1px solid white ;
+
+
+}
+
+.section-selected .material-icons
+{
+    color: red;
+}
+.section-selected
+{
+    background-color: white;
+    border-radius: 3px;
+    color: red;
+    border-bottom: 3px solid red;
+}
+.section h4{
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.emailrow-options
+{
+    display: flex;
+    align-items: center;
+}
+
+.emailrow-options .material-icons,input
+{
+    margin: 5px;
+}
+
+.email-row{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.email-row :hover
+{
+    border-top: 1px solid white;
+    box-shadow: 0 4px -2px rgba(0, 0, 0, 0.24);
+}
+
+
+
+.email-discription
+{
+    color: grey;
+}
